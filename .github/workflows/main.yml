@@ -15,6 +15,6 @@ jobs:
           bun-version: "latest"
           no-cache: "true"
       - name: Run
-        run: "bun test-core"
+        run: "bun test"
 
 
