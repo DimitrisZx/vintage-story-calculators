@@ -4,7 +4,7 @@ on: [push]
 jobs:
   setup_bun:
     name: Setup Bun
-    uses: "oven-sh/setup-bun@v1.2.1"
+    uses: ".github/workflows/oven-sh/setup-bun@v1.2.1"
     with:
       bun-version: "latest"
 
