@@ -14,7 +14,9 @@ jobs:
           # The version of Bun to install. (e.g. "latest", "canary", "1.0.0", "1.0.x", <sha>)
           bun-version: "latest"
           no-cache: "true"
-      - name: Run
-        run: "pwd && ls && bun test"
+      - name: Test
+        run: |
+          ls
+          bun test
 
 
