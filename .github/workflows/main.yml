@@ -1,4 +1,4 @@
-name: "Setup Bun"
+name: "Run Project"
 on: [push]
 
 jobs:
@@ -16,7 +16,6 @@ jobs:
           no-cache: "true"
       - name: Test
         run: |
-          ls
           bun test
 
 
