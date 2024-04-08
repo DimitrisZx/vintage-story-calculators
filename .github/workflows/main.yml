@@ -15,6 +15,6 @@ jobs:
           bun-version: "latest"
           no-cache: "true"
       - name: Run
-        run: "pwd && bun test"
+        run: "pwd && ls && bun test"
 
 
