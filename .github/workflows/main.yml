@@ -14,7 +14,9 @@ jobs:
           # The version of Bun to install. (e.g. "latest", "canary", "1.0.0", "1.0.x", <sha>)
           bun-version: "latest"
           no-cache: "false"
+      - run: ls
       - name: Test
+        # working-directory: path/to/your/directory/containing/package.json
         run: |
           bun install
           bun run test
