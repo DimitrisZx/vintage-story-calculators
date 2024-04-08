@@ -1,9 +1,14 @@
 {
   "name": "vintage-story-calculators",
+  "version": "0.1.0",
+  "workspaces": ["packages/*"],
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
     "@types/bun": "latest"
+  },
+  "scripts": {
+    "test": "bun test --workspace=core"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"

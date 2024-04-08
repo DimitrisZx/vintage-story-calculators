@@ -1,4 +1,4 @@
-function getApproximateCharcoal(fireWoodStacks: number, optimistic?: boolean) {
+export function getApproximateCharcoal(fireWoodStacks: number, optimistic?: boolean) {
     if (fireWoodStacks < 1) return 0;
 
     const factor = (() => {

@@ -1,0 +1,7 @@
+{
+    "name": "core",
+    "version": "0.1.0",
+    "scripts": {
+        "test-core": "bun run test ./index.test.ts"
+    }
+}
