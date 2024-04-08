@@ -2,7 +2,7 @@ name: "Setup Bun"
 on: [push]
 
 jobs:
-  setup_bun:
+  steps:
     name: Setup Bun
     uses: "oven-sh/setup-bun@8f24390df009a496891208e5e36b8a1de1f45135"
     with:
