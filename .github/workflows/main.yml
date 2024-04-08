@@ -13,7 +13,7 @@ jobs:
         with:
           # The version of Bun to install. (e.g. "latest", "canary", "1.0.0", "1.0.x", <sha>)
           bun-version: "latest"
-          no-cache: "true"
+          no-cache: "false"
       - name: Test
         run: |
           bun install
