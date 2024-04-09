@@ -44,4 +44,4 @@ jobs:
 
       # run any `bun` or `bunx` command
       - run: bun install
-      - run: bun runt test
+      - run: bun run test
