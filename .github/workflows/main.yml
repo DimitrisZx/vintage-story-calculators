@@ -16,5 +16,6 @@ jobs:
           no-cache: "false"
       - name: Test
         run: |
+          cd ../
           bun install
           bun run test
