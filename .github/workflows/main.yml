@@ -17,6 +17,9 @@ jobs:
       - name: List
         run: |
           ls ${{ github.workspace }}
+          cd ${{ github.workspace }}
+          ls
+          pwd
       - name: Test
           
         run: |
