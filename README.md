@@ -1,4 +1,4 @@
-# vintage-story-calculators
+# Vintage Story Calculators
 This repo is meant to become a source of utility tools for [Vintage Story](https://www.vintagestory.at/), to help players calculate needed materials for projects
 
 ## Structure
